@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>吃鸡</title>
+    <script type="text/javascript" th:src="@{/js/tongji.js}" ></script>
+</head>
+<body>
+    <h1>吃鸡吗</h1>
+    <h2 th:text="${data}"></h2>
+    <h3>study up</h3>
+    <a th:href="@{../A/自动跳转}">点击去A</a>
+    <a th:href="@{自动跳转}">点击去B</a>
+</body>
+</html>
